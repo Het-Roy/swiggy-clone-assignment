@@ -1,0 +1,39 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-bar img {
+    border-radius: 15%;
+}
+.location{
+    height: 40px;
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.add-your-location{
+    line-height: 1px;
+    position: relative;
+    bottom: 15px;
+    margin: 5px;
+}
+.add-your-location a{
+    line-height: 1px;
+    position: relative;
+    text-decoration: none;
+    margin: 5px;
+}
+.search{
+    width: 100%;
+    padding: 5px;
+}
+.row-items{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
